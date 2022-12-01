@@ -1,74 +1,164 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-  <meta charset="utf-8">
-  <title>Exo 1</title>
-  <link rel="stylesheet" href="assets\styles\css\style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-</head>
-<body>
- <header>
-     <h1>QURNO</h1>
-     <nav>
-         <ul>
-             <li><a href="">Home</a></li>
-             <li><a href="">About</a></li>
-             <li><a href="">Elements</a></li>
-             <li><a href="">Archive</a></li>
-             <li><a href="">Contact</a></li>
-             <li><a href="">Pages</a></li>
-         </ul>
-     </nav>
-     <button>Search</button>
- </header>
- <main>
-<section class="toptitle">
-    <h2>Taking control of your daily life is easy when you know how!</h2>
-</section>
-<section class="recentposts">
-    <h3>Recent posts</h3>
-        <article>
-            <header></header>
-                <p></p>
-                <section></section>
-            <footer></footer>
-        </article>
-        <article>
-            <header><img src="https://platol.netlify.app/qurno/assets/images/blog/02.jpg"> </header>
-                <p></p>
-                    <section></section>
-            <footer></footer>
-        </article>
-        <article>
-            <header><img src="https://platol.netlify.app/qurno/assets/images/blog/03.jpg"></header>
-                <p></p>
-                    <section></section>
-            <footer></footer>
-        </article>
-        <article>
-            <header><img src="https://platol.netlify.app/qurno/assets/images/blog/04.jpg"></header>
-                <p></p>
-                    <section></section>
-            <footer></footer>
-        </article>
-        <article>
-            <header><img src ="https://platol.netlify.app/qurno/assets/images/blog/05.jpg"></header>
-                <p></p>
-                    <section></section>
-            <footer></footer>
-            </article>
-        <article>
-            <header><img src="https://platol.netlify.app/qurno/assets/images/blog/06.jpg"></header>
-                <p></p>
-                    <section></section>
-            <footer></footer>
-        </article>
-    </section>
- </main>
- <footer>
-
- </footer>
-</body>
+    <head>
+        <meta charset="utf-8">  
+        <title>Qurno - Minimal Blog HTML Template</title>
+        <link rel="stylesheet" href="assets/styles/css/style.css" />
+    </head>
+    <body>
+        <header>
+            <figure>
+                <img src="https://platol.netlify.app/qurno/assets/images/logo.png">
+            </figure>
+            <nav>
+                <ul>
+                    <li id="selected"><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Elements</a></li>
+                    <li><a href="">Archive</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a hre="">Pages</a>
+                        <ul hidden>
+                            <li><a href="">Author</a></li>
+                            <li><a href="">Author Single</a></li>
+                            <li><a href="">Tag</a></li>
+                            <li><a href="">Tag Single</a></li>
+                            <li><a href="">Categories</a></li>
+                            <li><a href="">Category Single</a></li>
+                            <li><a href="">404 Page</a></li>
+                            <li><a href="">Privacy</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <button><span>Search</span></button>
+            </nav>
+        </header>
+        
+        <main>
+            <section>
+                <h1>Taking control of your daily life is<br> easy when you know how!</h1>
+            </section>
+            <section>
+                <h2>Recent posts</h2>
+            </section>
+            <section id="article">
+                <article>
+                    <header>
+                        
+                    </header>
+                    <section>
+                        <h3>The AGI hype train is running out of steam</h3>
+                        <p>The AGI hype train has hit some heavy traffic. While futurists and fundraisers used to make bullish predictions about artificial general intelligence, …
+                        </p>
+                    </section>
+                    <footer>
+                        <ul>
+                            <li>by Thomas</li>
+                            <li>Machine</li>
+                        </ul>
+                    </footer>
+                </article>
+                <article>
+                    <header>
+                        
+                    </header>
+                    <section>
+                        <h3>Creating an object that travels at 1% the speed of light?</h3>
+                        <p>Light is fast. In fact, it is the fastest thing that exists, and a law of the universe is that nothing can move faster than light. Light travels at …
+                        </p>
+                    </section>
+                    <footer>
+                        <ul>
+                            <li>by Chris</li>
+                            <li>Life</li>
+                            <li>Lighting</li>
+                        </ul>
+                    </footer>
+                </article>
+                <article>
+                    <header>
+                        
+                    </header>
+                    <section>
+                        <h3>Everything you wanted to know about the metaverse</h3>
+                        <p>In the wake of Facebook rebranding as Meta, reflecting its focus on the “metaverse”, Microsoft has now announced it, too, will launch into this space. …
+                        </p>
+                    </section>
+                    <footer>
+                        <ul>
+                            <li>by Emma</li>
+                            <li>Life</li>
+                        </ul>
+                    </footer>
+                </article>
+                <article>
+                    <header>
+                        
+                    </header>
+                    <section>
+                        <h3>How to hire a developer straight out of bootcamp — without getting burned</h3>
+                        <p>There’s a worldwide talent shortage in software development, and nearly one-third of hiring managers have hired someone from a coding bootcamp to help …
+                        </p>
+                    </section>
+                    <footer>
+                        <ul>
+                            <li>by Chris</li>
+                            <li>Lifestyle</li>
+                            <li>Startups</li>
+                        </ul>
+                    </footer>
+                </article>
+                <article>
+                    <header>
+                        
+                    </header>
+                    <section>
+                        <h3>Why developers are so divided over WordPress</h3>
+                        <p>After seeing WordPress top the most dreaded platform on Stack Overflow’s Developer Survey for two years in a row (2019 and 2020), a few weeks ago we …
+                        </p>
+                    </section>
+                    <footer>
+                        <ul>
+                            <li>by Thomas</li>
+                            <li>Work</li>
+                            <li>Lifestyle</li>
+                        </ul>
+                    </footer>
+                </article>
+                <article>
+                    <header>
+                        
+                    </header>
+                    <section>
+                        <h3>Why everyone is talking about ‘green steel’ at COP26</h3>
+                        <p>Among the rhetoric of climate change bingo and platitudes, there’s a term I’ve been hearing a lot at COP26 this week — green steel. But what is it, …
+                        </p>
+                    </section>
+                    <footer>
+                        <ul>
+                            <li>by Thomas</li>
+                            <li>Lifestyle</li>
+                        </ul>
+                    </footer>
+                </article>
+                <button>View all posts</button>
+            </section>
+            <section>
+                <h4>Get latest posts delivered right to your inbox</h4>
+                <form action="" method="" class="form">
+                    <fieldset>
+                        <label for="email"></label>
+                        <input type="email" id="email" name="email" placeholder="Your email address">
+                        <button>Join today</button>
+                    </fieldset>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <ul>
+                <li>©2022 Qurno. All rights reserved.</li>
+                <li>Privacy Policy 404 Page</li>
+            </ul>
+        </footer>
+    </body>
 </html>
